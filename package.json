@@ -6,6 +6,6 @@
     "simple-is": "0.2.0"
   },
   "scripts": {
-    "test": "bazel build //:test_generated_deps"
+    "test": "npm install . && bazel build -s //:test_generated_deps"
   }
 }
