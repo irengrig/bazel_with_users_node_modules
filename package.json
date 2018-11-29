@@ -4,8 +4,5 @@
   "description": "prototype for using user's node_modules",
   "dependencies": {
     "simple-is": "0.2.0"
-  },
-  "scripts": {
-    "test": "npm install . && bazel build -s //:test_generated_deps"
   }
 }
